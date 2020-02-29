@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31215BD22406B34C00BF54C0 /* LibraryAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31215BD12406B34C00BF54C0 /* LibraryAlbumViewCell.swift */; };
+		31215BD52406BC6900BF54C0 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31215BD32406BC6800BF54C0 /* Font Awesome 5 Free-Solid-900.otf */; };
+		31215BD62406BC6900BF54C0 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31215BD42406BC6900BF54C0 /* Font Awesome 5 Free-Regular-400.otf */; };
+		31215BD82406C80E00BF54C0 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31215BD72406C80E00BF54C0 /* MainViewCell.swift */; };
 		313EADF12404E8B20003C940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EADF02404E8B20003C940 /* AppDelegate.swift */; };
-		313EADF32404E8B20003C940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EADF22404E8B20003C940 /* SceneDelegate.swift */; };
-		313EADF52404E8B20003C940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EADF42404E8B20003C940 /* ViewController.swift */; };
 		313EADF82404E8B20003C940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313EADF62404E8B20003C940 /* Main.storyboard */; };
 		313EADFA2404E8B50003C940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313EADF92404E8B50003C940 /* Assets.xcassets */; };
 		313EADFD2404E8B50003C940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313EADFB2404E8B50003C940 /* LaunchScreen.storyboard */; };
+		313EAE072404EA080003C940 /* LibraryAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EAE062404EA080003C940 /* LibraryAlbumViewController.swift */; };
+		313EAE0B2404EA7A0003C940 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EAE0A2404EA7A0003C940 /* MainViewController.swift */; };
+		313EAE0D2406A1CE0003C940 /* LibraryPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EAE0C2406A1CE0003C940 /* LibraryPhotoViewController.swift */; };
+		313EAE0F2406A2540003C940 /* LibraryPhotoViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EAE0E2406A2540003C940 /* LibraryPhotoViewHeader.swift */; };
+		313EAE112406A26A0003C940 /* LibraryPhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313EAE102406A26A0003C940 /* LibraryPhotoViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31215BD12406B34C00BF54C0 /* LibraryAlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAlbumViewCell.swift; sourceTree = "<group>"; };
+		31215BD32406BC6800BF54C0 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		31215BD42406BC6900BF54C0 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		31215BD72406C80E00BF54C0 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		31215BD92408188F00BF54C0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		31215BDA2408189000BF54C0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		313EADED2404E8B20003C940 /* PhotosMultiSelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosMultiSelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		313EADF02404E8B20003C940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		313EADF22404E8B20003C940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		313EADF42404E8B20003C940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		313EADF72404E8B20003C940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		313EADF92404E8B50003C940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		313EADFC2404E8B50003C940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		313EADFE2404E8B50003C940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313EAE062404EA080003C940 /* LibraryAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAlbumViewController.swift; sourceTree = "<group>"; };
+		313EAE0A2404EA7A0003C940 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		313EAE0C2406A1CE0003C940 /* LibraryPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPhotoViewController.swift; sourceTree = "<group>"; };
+		313EAE0E2406A2540003C940 /* LibraryPhotoViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPhotoViewHeader.swift; sourceTree = "<group>"; };
+		313EAE102406A26A0003C940 /* LibraryPhotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPhotoViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +72,20 @@
 		313EADEF2404E8B20003C940 /* PhotosMultiSelect */ = {
 			isa = PBXGroup;
 			children = (
+				31215BD42406BC6900BF54C0 /* Font Awesome 5 Free-Regular-400.otf */,
+				31215BD32406BC6800BF54C0 /* Font Awesome 5 Free-Solid-900.otf */,
+				313EADFE2404E8B50003C940 /* Info.plist */,
 				313EADF02404E8B20003C940 /* AppDelegate.swift */,
-				313EADF22404E8B20003C940 /* SceneDelegate.swift */,
-				313EADF42404E8B20003C940 /* ViewController.swift */,
-				313EADF62404E8B20003C940 /* Main.storyboard */,
+				31215BD12406B34C00BF54C0 /* LibraryAlbumViewCell.swift */,
+				313EAE062404EA080003C940 /* LibraryAlbumViewController.swift */,
+				313EAE102406A26A0003C940 /* LibraryPhotoViewCell.swift */,
+				313EAE0C2406A1CE0003C940 /* LibraryPhotoViewController.swift */,
+				313EAE0E2406A2540003C940 /* LibraryPhotoViewHeader.swift */,
+				31215BD72406C80E00BF54C0 /* MainViewCell.swift */,
+				313EAE0A2404EA7A0003C940 /* MainViewController.swift */,
 				313EADF92404E8B50003C940 /* Assets.xcassets */,
 				313EADFB2404E8B50003C940 /* LaunchScreen.storyboard */,
-				313EADFE2404E8B50003C940 /* Info.plist */,
+				313EADF62404E8B20003C940 /* Main.storyboard */,
 			);
 			path = PhotosMultiSelect;
 			sourceTree = "<group>";
@@ -109,6 +132,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 313EADE42404E8B20003C940;
 			productRefGroup = 313EADEE2404E8B20003C940 /* Products */;
@@ -128,6 +152,8 @@
 				313EADFD2404E8B50003C940 /* LaunchScreen.storyboard in Resources */,
 				313EADFA2404E8B50003C940 /* Assets.xcassets in Resources */,
 				313EADF82404E8B20003C940 /* Main.storyboard in Resources */,
+				31215BD52406BC6900BF54C0 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+				31215BD62406BC6900BF54C0 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				313EADF52404E8B20003C940 /* ViewController.swift in Sources */,
+				313EAE0B2404EA7A0003C940 /* MainViewController.swift in Sources */,
+				31215BD22406B34C00BF54C0 /* LibraryAlbumViewCell.swift in Sources */,
+				313EAE0D2406A1CE0003C940 /* LibraryPhotoViewController.swift in Sources */,
 				313EADF12404E8B20003C940 /* AppDelegate.swift in Sources */,
-				313EADF32404E8B20003C940 /* SceneDelegate.swift in Sources */,
+				313EAE0F2406A2540003C940 /* LibraryPhotoViewHeader.swift in Sources */,
+				31215BD82406C80E00BF54C0 /* MainViewCell.swift in Sources */,
+				313EAE112406A26A0003C940 /* LibraryPhotoViewCell.swift in Sources */,
+				313EAE072404EA080003C940 /* LibraryAlbumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +182,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				313EADF72404E8B20003C940 /* Base */,
+				31215BDA2408189000BF54C0 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +191,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				313EADFC2404E8B50003C940 /* Base */,
+				31215BD92408188F00BF54C0 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +203,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
